@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<html>
+<head>
+<title>My Swaggy MadLib</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="story_maker.js">
+</head>
+
+<body id="everythan">
+
+<h1>My Mad MadLib</h1>
+
+<div class="data">
+
+    <form>
+        <div class="spacing">
+          Verb plz: <br> <input type="text" id='verb1'> <br>
+        </div>
+        <div class="spacing">
+          Verb 2 plz: <input type="text" id='verb2'> <br>
+        </div>
+        <div class="spacing">
+          Verb 3 plz: <input type="text" id='verb3'> <br>
+        </div>
+        <div class="spacing">
+          Pronoun plz: <input type="text" id='pro'> <br>
+        </div>
+        <div class="spacing">
+          Adjective plz: <input type="text" id='adjective1'> <br>
+        </div>
+        <div class="spacing">
+          Adjective 2 plz: <input type="text" id='adjective2'> <br>
+        </div>
+        <div class="spacing">
+          Noun plz: <br> <input type="text" id='noun1'> <br>
+        </div>
+        <div class="spacing">
+          Noun 2 plz: <input type="text" id='noun2'> <br>
+        </div>
+        <div class="spacing">
+          Noun 3 plz: <input type="text" id='noun3'> <br>
+        </div>
+        <div class="spacing">
+          Noun 4 plz: <input type="text" id='noun4'> <br>
+        </div>
+        <div class="spacing">
+          Noun 5 plz: <input type="text" id='noun5'> <br>
+        </div>
+        <div class="spacing">
+          Noun 6 plz: <input type="text" id='noun6'> <br>
+        </div>
+        <div class="spacing">
+          Noun 7 plz: <input type="text" id='noun7'> <br>
+        </div>
+        <div class="spacing">
+          Noun 8 plz: <input type="text" id='noun8'> <br>
+        </div>
+        <div class="spacing">
+          Noun 9 plz: <input type="text" id='noun9'> <br>
+        </div>
+        <div class="spacing">
+          <input type="button" onclick="makeStory()" value="Submit">
+        </div>
+    </form>
+
+</div>
+
+<div class="story">
+    <h2 id="title1"></h2>
+
+    <p id="paragraph1"></p>
+
+    <div id="image1"></div>
+
+</div>
+
+<!-- don't forget to link to the story_maker.js file here. -->
+<script src="story_maker.js"></script>
+
+
+</body>
+</html>
